@@ -1,4 +1,5 @@
-const db = require('./config/db');
+
+const db = require('../config/db');
 
 
 const getHomePage = (req, res) =>{
@@ -8,7 +9,8 @@ const getHomePage = (req, res) =>{
             res.redirect('/');
         }
         res.render('index.ejs', {
-            title: "Welcome to Crud Operation" 
+            title: "Welcome to Crud Operation" ,
+            players: result
         });
     });
 

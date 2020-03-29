@@ -1,5 +1,5 @@
 const fs = require('fs');
-const db = require('./config/db');
+const db = require('../config/db');
 
 const addPlayerPage = (req, res) =>{
     res.render('add-player.ejs', {
