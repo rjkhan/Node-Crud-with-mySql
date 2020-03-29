@@ -1,0 +1,30 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "It a simple app which has basic crud operation implementation using nodejs , express and mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rjkhan/Node-Crud-with-mySql.git"
+  },
+  "keywords": [
+    "Nodejs"
+  ],
+  "author": "RabnawazJansher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rjkhan/Node-Crud-with-mySql/issues"
+  },
+  "homepage": "https://github.com/rjkhan/Node-Crud-with-mySql#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.6",
+    "mysql": "^2.18.1",
+    "req-flash": "0.0.3"
+  }
+}
