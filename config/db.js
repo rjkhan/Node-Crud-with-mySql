@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
 var db = mysql.createConnection ({
-    host: 'your host',
+    host: 'Rabnawazs-MacBook-Pro.local',
     user: 'root',
     password: 'root',
-    database: 'databaseName'
+    database: 'nodejs'
 });
 
 
